@@ -13,7 +13,7 @@ Funkce obsažené v balíčku pokryvají většinu kurzu **Statistika 2**. Postu
 
 1. Funkce, která počítá jakýkoliv interval spolehlivosti, začíná na `is_`.
 2. Dále následuje parametr, pro který interval spolehlivosti vytvaříme, např. `_mu_` (pro střední hodnotu).
-3. Dále následuje parametr, který buď máme nebo nemáme k dispozici, např. `_s_` (neznáme skutečnou směrodatnou odchylku).
+3. Dále následuje parametr, který buď máme nebo nemáme k dispozici, např. `_s_` (skutečná směrodatná odchylku).
 4. Končí název funkce slovem `_zname` nebo `_nezname` na základě toho, zdá známe nebo neznáme parametr zmíněný v bodě 3.
 5. Pokud máme k dispozici dva výběry (a testujeme statistiky na základě dvou výběrů), přidáváme na konci `_2`.
 Tak například, funkce pro výpočet intervalu spolehlivosti pro rozdíl středních hodnot dvou výběru při neznámých směrodatných odchylkách je `is_mu_s_nezname_2`.
