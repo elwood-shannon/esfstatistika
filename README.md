@@ -21,3 +21,5 @@ Tak například, funkce pro výpočet intervalu spolehlivosti pro rozdíl střed
 6. Popis jednotlivých parametrů si najdete v dokumentaci každé příslušné funkce (stačí zadat do R konzole příkaz `?nazev_funkce`).
 
 Seznam všech funkcí s příslušnými kapitolami přednášek, kam patří, jsou uvedene níže.
+
+## Seznam funkcí
