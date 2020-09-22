@@ -17,7 +17,7 @@ Funkce obsažené v balíčku pokryvají většinu kurzu **Statistika 2**. Postu
 4. Končí název funkce slovem `_zname` nebo `_nezname` na základě toho, zdá známe nebo neznáme parametr zmíněný v bodě 3.
 5. Pokud máme k dispozici dva výběry (a testujeme statistiky na základě dvou výběrů), přidáváme na konci `_2`.
 Tak například, funkce pro výpočet intervalu spolehlivosti pro rozdíl středních hodnot dvou výběru při neznámých směrodatných odchylkách je `is_mu_s_nezname_2`.
-5. Funkce, která počítá jakýkoliv kritický obor a statistiku začíná buď příslušným názvem testu (např. `f_test`), nebo parametrem, který se testuje `theta_`.
+5. Funkce, která počítá jakýkoliv kritický obor a statistiku začíná buď příslušným názvem testu (např. `f_test`), nebo parametrem, který se testuje např. (`theta_`).
 6. Popis jednotlivých parametrů si najdete v dokumentaci každé příslušné funkce (stačí zadat do R konzole příkaz `?nazev_funkce`).
 
 Seznam všech funkcí s příslušnými kapitolami přednášek, kam patří, jsou uvedene níže.
