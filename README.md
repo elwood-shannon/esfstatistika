@@ -55,9 +55,9 @@ Název funkce | Použití
 Název funkce | Použití
 ------------ | -------------
 `is_theta` | Interval spolehlivosti pro parametr **υ** z alternativního rozložení
-`theta_test` | Testování parametru **υ** oproti konstantě **c**. Do funkce je implementováno ovéření podmínky dobré aproximace
+`theta_test` | Testování parametru **υ** oproti konstantě **c**. Do funkce je implementováno ověření podmínky dobré aproximace
 `is_theta_2` | Interval spolehlivosti pro rozdil **υ_1 - υ_2** z alternativního rozložení
-`theta_test_2` | Testování rozdilu **υ_1 - υ_2** oproti konstantě **c**. Do funkce je implementováno ovéření podmínky dobré aproximace. Pokud c je rovno nule, přednostně se použivá speciální vztah (viz přednáška)
+`theta_test_2` | Testování rozdilu **υ_1 - υ_2** oproti konstantě **c**. Do funkce je implementováno ověření podmínky dobré aproximace. Pokud c je rovno nule, přednostně se použivá speciální vztah (viz přednáška)
 
 ### 9. Jednoduchá lineární regrese
 
