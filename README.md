@@ -39,3 +39,20 @@ Název funkce | Použití
 
 ### 6. Parametrické úlohy o dvou nezávislých náhodných výběrech z normálního rozložení
 
+Název funkce | Použití
+------------ | -------------
+`is_mu_s_zname_2` | Interval spolehlivosti pro **μ_1 - μ_2**, když **σ_1^2, σ_2^2** známe
+`is_s_mu_nezname_2` | Interval spolehlivosti pro společný neznámý rozptyl **σ^2**
+`is_mu_s_nezname_2` | Interval spolehlivosti pro **μ_1 - μ_2**, když **σ_1^2, σ_2^2** neznáme
+`is_s_podil_2` | Interval spolehlivosti pro podíl rozptylů **σ_1^2 /σ_2^2**
+`welch` | Welchova aproximace
+`z_test_2` | Dvouvýbérový *z*-test 
+`t_test_2` | Dvouvýběrový *t*-test
+`f_test` | *F*-test o shodě dvou rozptylů
+
+
+
+
+
+
+
