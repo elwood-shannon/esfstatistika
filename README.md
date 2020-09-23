@@ -46,9 +46,37 @@ Název funkce | Použití
 `is_mu_s_nezname_2` | Interval spolehlivosti pro **μ_1 - μ_2**, když **σ_1^2, σ_2^2** neznáme
 `is_s_podil_2` | Interval spolehlivosti pro podíl rozptylů **σ_1^2 /σ_2^2**
 `welch` | Welchova aproximace
-`z_test_2` | Dvouvýbérový *z*-test 
-`t_test_2` | Dvouvýběrový *t*-test
+`z_test_2` | Dvouvýbérový *z*-test o shodě dvou středních hodnot
+`t_test_2` | Dvouvýběrový *t*-test o shodě dvou středních hodnot
 `f_test` | *F*-test o shodě dvou rozptylů
+
+### 7. Parametrické úlohy o jednom a dvou nezávislých náhodných výběrech z alternativního rozložení
+
+Název funkce | Použití
+------------ | -------------
+`is_theta` | Interval spolehlivosti pro parametr **υ** z alternativního rozložení
+`theta_test` | Testování parametru **υ** oproti konstantě **c**. Do funkce je implementováno ovéření podmínky dobré aproximace
+`is_theta_2` | Interval spolehlivosti pro rozdil **υ_1 - υ_2** z alternativního rozložení
+`theta_test_2` | Testování rozdilu **υ_1 - υ_2** oproti konstantě **c**. Do funkce je implementováno ovéření podmínky dobré aproximace. Pokud c je rovno nule, přednostně se použivá speciální vztah (viz přednáška)
+
+### 9. Jednoduchá lineární regrese
+
+Název funkce | Použití
+------------ | -------------
+`is_beta` | Interval spolehlivosti pro regresní parametr **β**
+`t_test_beta` | Testování významnosti regresního parametru **β**
+
+### 10. Úvod do korelační analýzy
+
+Název funkce | Použití
+------------ | -------------
+`rho_test_0` | Testování parametru **ρ** korelačního koeficientu oproti nule
+`rho_test_c` | Testování parametru **ρ** korelačního koeficientu oproti konstantě **c**
+`is_rho` | Interval spolehlivosti pro parametr **ρ**
+`rho_test_2` | Testování rovnosti dvou korelačních koeficientu **ρ_1** a **ρ_2**
+
+
+
 
 
 
