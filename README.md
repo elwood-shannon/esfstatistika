@@ -77,7 +77,7 @@ Název funkce | Použití
 
 ## Příklad použití
 
-**(Příklad je převzat z 6. přednášky)** Ve dvou nádržích se zkoumal obsah chlóru (v g/l). Z první nádrže bylo odebráno 25 vzorků, z druhé nádrže 10 vzorků. Byly vypoćteny realizace výběrových průměrů a rozptylů: **m_1** = 34.48, **m_2** = 35.59, **s_1^2** = 1.7482, **s_2^2** = 1.7121. Sestrojte 95% empirický interval spolehlivosti pro rozdíl středních hodnot **μ_1 - μ_2**. 
+**(Příklad je převzat z 6. přednášky)** Ve dvou nádržích se zkoumal obsah chlóru (v g/l). Z první nádrže bylo odebráno 25 vzorků, z druhé nádrže 10 vzorků. Byly vypočteny realizace výběrových průměrů a rozptylů: **m_1** = 34.48, **m_2** = 35.59, **s_1^2** = 1.7482, **s_2^2** = 1.7121. Sestrojte 95% empirický interval spolehlivosti pro rozdíl středních hodnot **μ_1 - μ_2**. 
 
 **Řešení**: v tomto případě se hodí funkce `is_mu_s_nezname_2 (m_1, m_2, s_1, s_1, n_1, n_2, alfa = 0.05, dec = 10)`. Místo argumentů dosadíme čísla, které máme k dispozici: `is_mu_s_nezname_2 (34.48, 35.59, sqrt(1.7482), sqrt(1.7121), 25, 10, alfa = 0.05, dec = 4)`. Následně se zobrazí všechny potřebné údaje (viz obrázek).
 
