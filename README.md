@@ -7,7 +7,7 @@ Tento balíček byl vytvořen pro pomoc při studiu výhradně studentům kurzů
 1. Otevřete si R-Studio.
 2. Do konzole zadejte příkaz `devtools::install_github("elwood-shannon/esfstatistika")`. Po následné instalaci by Vám měly být přístupné všechny funkce, obsažené v balíčku.
 
-## Práce s funkcemi
+## Práce s funkcemi (pokud nemáte čas, můžete přeskočit)
 
 Funkce obsažené v balíčku pokryvají většinu kurzu **Statistika 2**. Postupně budou přibývat i další. Názvy funkcí jsou více méně intuitivní, a řídí se jednoduchými pravidly:
 
@@ -23,3 +23,19 @@ Tak například, funkce pro výpočet intervalu spolehlivosti pro rozdíl střed
 Seznam všech funkcí s příslušnými kapitolami přednášek, kam patří, jsou uvedene níže.
 
 ## Seznam funkcí
+
+Funkce jsou tříděné dle příslušných přednášek (dle studijních materiálů **Statistiky 2**). Vedle názvu každé funkce následuje stručný popis a možnost použití.
+
+### 5. Parametrické úlohy o jednom náhodném výběru z normálního rozložení
+
+Název funkce | Použití
+------------ | -------------
+`is_mu_s_zname` | Interval spolehlivosti pro parametr **μ**, když **σ^2** známe
+`is_s_mu_nezname` | Interval spolehlivosti pro **σ^2**, když **μ** neznáme
+`is_mu_s_nezname` | Interval spolehlivosti pro **μ**, když **σ^2** neznáme 
+`z_test` | Testování **μ** oproti konstantě **c**, když **σ^2** známe
+`t_test` |Testování **μ** oproti konstantě **c**, když **σ^2** neznáme
+`rozptyl_test` | Testování **σ^2** oproti konstantě **c**, když **μ** neznáme
+
+### 6. Parametrické úlohy o dvou nezávislých náhodných výběrech z normálního rozložení
+
