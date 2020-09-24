@@ -23,9 +23,9 @@ Tak například, funkce pro výpočet intervalu spolehlivosti pro rozdíl střed
 5. Funkce, která počítá jakýkoliv kritický obor a statistiku začíná buď příslušným názvem testu (např. `f_test`), nebo parametrem, který se testuje např. (`theta_`).
 6. Popis jednotlivých parametrů si najdete v dokumentaci každé příslušné funkce (stačí zadat do R konzole příkaz `?nazev_funkce`).
 
-Seznam všech funkcí s příslušnými kapitolami přednášek, kam patří, jsou uvedene níže.
+Seznám všech funkcí s příslušnými kapitolami přednášek, kam patří, jsou uvedene níže.
 
-## Seznam funkcí
+## Seznám funkcí
 
 Funkce jsou tříděné dle příslušných přednášek (dle studijních materiálů **Statistiky 2**). Vedle názvu každé funkce následuje stručný popis a možnost použití.
 
