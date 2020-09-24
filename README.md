@@ -6,6 +6,8 @@ Tento balíček byl vytvořen pro pomoc při studiu výhradně studentům kurzů
 
 1. Otevřete si R-Studio.
 2. Do konzole zadejte příkaz `devtools::install_github("elwood-shannon/esfstatistika")`. Po následné instalaci by Vám měly být přístupné všechny funkce, obsažené v balíčku.
+3. Do konzole zadejte příkaz `library(esfstatistika)`. Tento krok nahrání baličku bude třeba dělat pokaždé, když spustíte R-Studio znovu.
+4. Můžete se pustit do práce!
 
 ## Práce s funkcemi (pokud nemáte čas, můžete přeskočit)
 
