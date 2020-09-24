@@ -5,7 +5,7 @@ Tento balíček byl vytvořen pro pomoc při studiu výhradně studentům kurzů
 ## Instalace balíčku
 
 1. Otevřete si R-Studio.
-2. Do konzole zadejte příkaz `install.packages('devtools', type = 'win.binary')`.
+2. Do konzole zadejte příkaz `install.packages("devtools", type = 'win.binary')`.
 3. Do konzole zadejte příkaz  `devtools::install_github("elwood-shannon/esfstatistika")`. Po následné instalaci by Vám měly být přístupné všechny funkce, obsažené v balíčku.
 4. Do konzole zadejte příkaz `library(esfstatistika)`. Tento krok nahrání baličku bude třeba dělat pokaždé, když spustíte R-Studio znovu.
 5. Můžete se pustit do práce!
